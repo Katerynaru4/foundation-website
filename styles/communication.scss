@@ -87,8 +87,8 @@
   }
 
   &__info {
-    margin-top: 40px;
-    padding-top: 33px;
+    margin-top: 68px;
+    position: relative;
     @include for-small-up {
       display: flex;
       justify-content: space-between;
@@ -96,6 +96,7 @@
     &::before {
       content: '';
       position: absolute;
+      top: 0;
       height: 1px;
       width: 150px;
       background-color: #000000;

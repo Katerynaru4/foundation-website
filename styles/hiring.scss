@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   @include for-small-up {
-    padding: 106px 15px 60px;
+    padding: 0px 15px 60px;
   }
   &__title {
     font-weight: 700;
@@ -83,10 +83,8 @@
     background-color: $color-dark-blue;
     color: $text-color-white;
   }
-  &:hover {
-    &__arrow {
+  &:hover &__arrow{
       background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png');
-    }
   }
   &__text {
     flex-grow: 1;
@@ -136,8 +134,5 @@
     height: 12px;
     width: 7px;
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png');
-    @include for-small-up {
-      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png');
-    }
   }
 }
