@@ -68,7 +68,7 @@
   height: 404px;
   @include for-small-up {
     margin-top: 60px;
-    margin-left: 126px;
+    margin-left: auto;
     display: flex;
     flex-direction: row;
     border: none;
