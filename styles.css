@@ -1078,6 +1078,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
+  letter-spacing: -0.357143px;
 }
 @media screen and (min-width: 1400px) {
   .audience__title {
@@ -1085,6 +1086,7 @@
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
+    width: 555px;
   }
 }
 .audience__text {
@@ -1160,7 +1162,7 @@
   background-color: #3040c4;
 }
 .audience__cards-image {
-  min-width: 50%;
+  height: 195px;
 }
 .audience__cards-item-title {
   font-weight: 700;
@@ -1168,6 +1170,7 @@
   line-height: 28px;
   margin-top: 22px;
 }
+
 .hiring {
   padding: 50px 15px;
   display: flex;
