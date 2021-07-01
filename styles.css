@@ -1138,7 +1138,8 @@
     justify-content: space-between;
   }
 }
-.audience__cards-item {
+
+.user-card {
   width: 290px;
   height: 300px;
   background-color: #FFF;
@@ -1153,17 +1154,17 @@
   padding-bottom: 33px;
 }
 @media screen and (min-width: 1400px) {
-  .audience__cards-item {
+  .user-card {
     margin: 0 15px;
   }
 }
-.audience__cards-item:hover {
+.user-card:hover {
   background-color: #3040c4;
 }
-.audience__cards-image {
+.user-card__image {
   height: 195px;
 }
-.audience__cards-item-title {
+.user-card__title {
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
@@ -1247,7 +1248,7 @@
   }
 }
 
-.profession {
+.vacancy {
   display: flex;
   align-items: center;
   border: 1px solid rgba(43, 41, 45, 0.2);
@@ -1255,49 +1256,49 @@
   border-radius: 8px;
 }
 @media screen and (min-width: 1400px) {
-  .profession {
+  .vacancy {
     width: 750px;
   }
 }
-.profession:hover {
+.vacancy:hover {
   background-color: #3040c4;
   color: #FFF;
 }
-.profession:hover .profession__arrow {
+.vacancy:hover .vacancy__arrow {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png");
 }
-.profession__text {
+.vacancy__text {
   flex-grow: 1;
   margin-right: 20px;
   margin-left: 20px;
 }
 @media screen and (min-width: 1400px) {
-  .profession__text {
+  .vacancy__text {
     margin-right: 33px;
     margin-left: 25px;
     display: flex;
     align-items: center;
   }
 }
-.profession__title {
+.vacancy__title {
   display: inline;
   margin: 0;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
 }
-.profession__info {
+.vacancy__info {
   font-size: 16px;
   line-height: 22px;
   opacity: 0.6;
   margin-top: 7px;
 }
 @media screen and (min-width: 1400px) {
-  .profession__info {
+  .vacancy__info {
     margin-left: auto;
   }
 }
-.profession__arrow-field {
+.vacancy__arrow-field {
   height: 100%;
   width: 50px;
   background-color: #d5d4d5;
@@ -1307,11 +1308,11 @@
   border-radius: 0px 8px 8px 0px;
 }
 @media screen and (min-width: 1400px) {
-  .profession__arrow-field {
+  .vacancy__arrow-field {
     background-color: transparent;
   }
 }
-.profession__arrow {
+.vacancy__arrow {
   display: inline-block;
   height: 12px;
   width: 7px;
