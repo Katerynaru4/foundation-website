@@ -810,7 +810,7 @@
 @media screen and (min-width: 1400px) {
   .additional-navigation {
     margin-top: 60px;
-    margin-left: auto;
+    margin-left: 126px;
     display: flex;
     flex-direction: row;
     border: none;
@@ -1147,6 +1147,8 @@
   flex-direction: column;
   margin-bottom: 15px;
   align-items: center;
+  padding-top: 22px;
+  padding-bottom: 33px;
 }
 @media screen and (min-width: 1400px) {
   .audience__cards-item {
