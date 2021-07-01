@@ -10,19 +10,20 @@
     margin-top: 84px;
   }
   &__content {
-    margin: 35px 15px 33px 15px;
+    margin: 0px 15px 33px 15px;
     @include for-small-up {
       position: absolute;
       z-index: 1;
     }
   }
   &__title {
+    margin: 0;
+
     @include for-small-up {
       font-weight: 700;
       font-size: 80px;
       line-height: 78px;
       letter-spacing: -0.5px;
-      margin: 0;
       height: 165px;
       width: 754px;
       left: 126px;
