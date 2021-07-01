@@ -10,8 +10,9 @@
     margin-top: 84px;
   }
   &__content {
-    margin: 0px 15px 33px 15px;
+    margin: 35px 15px 33px 15px;
     @include for-small-up {
+      margin: 0;
       position: absolute;
       z-index: 1;
     }
