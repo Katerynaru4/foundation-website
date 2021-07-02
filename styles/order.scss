@@ -90,8 +90,6 @@
     font-size: 14px;
     line-height: 22px;
     color: $color-dark;
-    @include for-small-up {
-    }
   }
 
   &__terms-link {

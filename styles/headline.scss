@@ -4,7 +4,7 @@
     width: 1140px;
     margin: auto;
     display: flex;
-    background-color: #f3c6bd;
+    background-color: $color-pink;
     position: relative;
     padding-bottom: 77px;
     margin-top: 84px;
@@ -64,11 +64,12 @@
       width: 158px;
     }
   }
+
   &__learn-more-btn {
+    width: 100%;
     margin-top: 15px;
     @include for-small-up {
       width: 158px;
-      height: 48px;
       margin-top: 0;
       margin-left: 10px;
     }

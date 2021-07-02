@@ -1,9 +1,10 @@
 .top-section {
-  background-color: #f3c6bd;
+  background-color: $color-pink;
   @include for-small-up {
     padding-top: 39px;
   }
 }
+
 .header {
   height: 64px;
   width: 100%;
@@ -28,7 +29,7 @@
   &__menu-button {
     width: 58px;
     border: none;
-    border-left: 1px solid #00000026;
+    border-left: 1px solid $border-semi-transparent-color;
     height: 100%;
     margin-left: auto;
     background-color: transparent;
@@ -76,7 +77,7 @@
     display: inline-block;
     height: 5px;
     width: 8px;
-    background-image: url(images/Arrow.png);
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
     margin-left: 11px;
   }
 }

@@ -8,19 +8,25 @@
   }
   &__figure {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @include for-small-up {
+      width: 425px;
+      margin: 0;
+      margin-right: 164px;
+    }
   }
   &__illustration {
     max-width: 290px;
 
     @include for-small-up {
       max-width: 425px;
-      margin-right: 164px;
     }
   }
   &__illustration-caption {
     display: none;
     @include for-small-up {
+      display: inline;
       font-size: 14px;
       line-height: 22px;
       text-align: center;
