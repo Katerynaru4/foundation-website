@@ -1,7 +1,7 @@
 # Foundation-website
 ____
 
-[Site link](https://katerynaru4.github.io/foundation-website/)
+**[Site link](https://katerynaru4.github.io/foundation-website/)**
 
 Foundation-website supports mobile (400px) and desktop (1400px) versions
 
