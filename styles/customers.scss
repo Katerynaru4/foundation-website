@@ -1,31 +1,33 @@
 .customers {
   display: flex;
   flex-direction: column;
+
   @include for-small-up {
-    width: 1140px;
     margin: auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 106px;
-    flex-direction: row;
+    width: 1140px;
+    padding: 30px 0 106px;
   }
   &__row {
     display: flex;
+
     @include for-small-up {
       flex: 1;
       justify-content: space-around;
     }
   }
   &__item {
-    height: 94px;
-    border-bottom: 1px solid $color-light-grey;
-    border-right: 1px solid $color-light-grey;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
+    height: 94px;
+    border-bottom: 1px solid $color-light-grey;
+    border-right: 1px solid $color-light-grey;
+
     @include for-small-up {
       border: none;
     }

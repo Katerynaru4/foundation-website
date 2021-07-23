@@ -1,38 +1,42 @@
 .top-section {
   background-color: $color-pink;
+
   @include for-small-up {
     padding-top: 39px;
   }
 }
 
 .header {
+  display: flex;
+  align-items: center;
   height: 64px;
   width: 100%;
   background-color: $color-white;
-  display: flex;
-  align-items: center;
   padding-left: 15px;
+
   @include for-small-up {
+    margin: auto;
     width: 1140px;
     height: 62px;
-    margin: auto;
-    display: flex;
     background-color: transparent;
     padding: 0;
   }
   &__button {
     display: none;
+
     @include for-small-up {
       display: block;
     }
   }
   &__menu-button {
+    margin-left: auto;
     width: 58px;
     border: none;
     border-left: 1px solid $border-semi-transparent-color;
     height: 100%;
-    margin-left: auto;
     background-color: transparent;
+    cursor: pointer;
+    
     @include for-small-up {
       display: none;
     }
@@ -47,11 +51,10 @@
 }
 .navigation {
   display: none;
+
   @include for-small-up {
     display: block;
-    margin-left: auto;
-    margin-top: 7px;
-    margin-right: 75px;
+    margin: 7px 75px 0px auto;
   }
   &__item {
     @include for-small-up {
@@ -74,11 +77,11 @@
     }
   }
   &__arrow {
+    margin-left: 11px;
     display: inline-block;
     height: 5px;
     width: 8px;
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
-    margin-left: 11px;
   }
 }
 .logo {
@@ -89,16 +92,17 @@
     justify-content: center;
   }
   &__image {
+    margin-right: 13px;
     width: 48px;
     height: 48px;
-    margin-right: 13px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     border-radius: 14px;
+
     @include for-small-up {
+      margin-right: 15px;
       width: 60px;
       height: 60px;
-      margin-right: 15px;
     }
   }
 
@@ -109,11 +113,12 @@
   }
 
   &__description {
+    display: none;
     font-size: 18px;
     line-height: 25px;
     color: $color-dark;
     opacity: 0.6;
-    display: none;
+
     @include for-small-up {
       display: block;
     }
