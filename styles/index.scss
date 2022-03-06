@@ -24,7 +24,7 @@ html {
 }
 .page {
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 
   @include for-small-up {
     margin: auto;
